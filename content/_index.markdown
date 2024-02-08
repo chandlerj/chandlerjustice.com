@@ -3,9 +3,9 @@ title: Home
 ---
 # CHANDLER JUSTICE
 
-### Student at Utah State University studying Computer Science and Computational Mathematics.
+### Student at Utah State studying Computer Science and Computational Mathematics.
 
-(Full resume at the [about](about/) page)
+(Full resume @ [about](about/) page)
 
 ## Other Things I do:
 - [Instant Rice: An automatic theming utility for many popular desktop tools](https://github.com/chandlerj/InstantRice)
@@ -21,8 +21,6 @@ title: Home
  LinkedIn: [chandler-justice](https://www.linkedin.com/in/chandler-justice/)
 
  Discord: `CCHHQQNN` 
-
 <br>
-
 ## Posts:
 

@@ -55,7 +55,7 @@ This class was a blast and goes head first into high performance computing and t
 **THE Final Project**
 
 The final project for this class is awesome. I was in a group of 3 for the
-project. And we ended up creating a program that, given a dataset representing
+project. We ended up creating a program that, given a dataset representing
 elevation of terrain, creates a line-of-sight map from every point to every
 other point. Basically, "if I stood here, what could I see?". We used this
 problem as an opportunity to create multiple implementations:

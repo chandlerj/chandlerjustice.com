@@ -13,7 +13,12 @@ I have a strong passion for all things computer science and mathematics. I am fa
  - Computational Mathematics
  - Hacking devices back into relevance using aftermarket software.
 
+# Education
  
+ **BS: Computer Science | Utah State | Fall 2019 - Fall 2023**
+
+ **BS: Computational Mathematics | Utah State | Spring 2023 - Fall 2024**
+
 # (Relevant) Work Experience
 
  **TA: CS-1400 (CS1) | Utah State | Fall 2023**

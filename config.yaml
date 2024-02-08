@@ -6,7 +6,7 @@ googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
-
+favicon: true
 permalinks:
   note: "/note/:year/:month/:day/:slug/"
   post: "/post/:year/:month/:day/:slug/"
@@ -23,7 +23,7 @@ menu:
       url: "posts/"
 params:
   description: "Chandler Justice's Personal Website."
-  footer: "&copy; [Chandler Justice](https://chandlerjustice.com/) 2023 -- {Year}"
+  footer: "&copy; [Chandler Justice](http://chandlerjustice.com/) 2023 -- {Year}"
 
 markup:
   highlight:

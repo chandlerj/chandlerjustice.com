@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How I Created Instant Rice, An Automatic Theming Tool | </title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">How I Created Instant Rice, An Automatic Theming Tool</span></h1>
+
+<h2 class="date">2023/12/28</h2>
+</div>
+
+<main>
+<p>The amount of customization available on a Linux desktop absolutely scratches my OCD. I sometimes find myself spending hours tweaking
+every aspect of the system I can. Every program that dropped a file in my <code>.config</code> folder was a new present, where I could dive in
+and change every last variable of a configuration value. Beyond scratching an itch, tweaking a program&rsquo;s config file is a great way
+to learn how that program works and how to use that program.</p>
+<p>Eventually I realized my process for theming programs could be boiled down to:</p>
+<ul>
+<li>Find a wallpaper I like</li>
+<li>Pull out a color picker and find colors
+I liked from the image</li>
+<li>Use those colors as a palette and go through every
+configuration file replacing the colors throughout
+the configuration file.</li>
+</ul>
+<p>I then remembered that I knew how to code and could automate this process!</p>
+<h2 id="using-k-means-clustering-to-get-colors">Using K-Means Clustering to Get Colors</h2>
+<p>The K-Means algorithm is a way of finding a defined number of points <code>n</code>, that exists in a dataset of <code>k</code> elements. As elements are observed they are assigned to one of the points, and the points value is modified to be the mean of all points associated with it.</p>
+<p>I tried finding a <em>scholarly</em> article that summarizes the math behind
+K-Means clustering I could site, but Wikipedia ended up having the most
+digestible explanation.</p>
+<p>Given observations</p>
+<p>$$(x_1, x_2, &hellip;, x_n), \quad x_i \in \mathbb{R}^d$$</p>
+<p>Partition the elements into sets</p>
+<p>$$S = (S_1, S_2, &hellip;, S_k)$$</p>
+<p>and minimize the within-cluster sum of squares</p>
+<p>$$arg_s min \sum^{k}_{i=1} \sum_x^{S_i} ||x - \mu_i||^2, \quad \mu_i = \frac{1}{len(S_i)} \sum^{S_i}_x x $$</p>
+
+</main>
+
+  <footer>
+  <script defer src="//yihui.org/js/math-code.js"></script>
+<script defer src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script defer src="//yihui.org/js/center-img.js"></script>
+
+  
+  </footer>
+  </body>
+</html>
+

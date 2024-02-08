@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fall &#39;23: Semester Retrospective | Chandler Justice</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/posts/">Posts</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Fall &lsquo;23: Semester Retrospective</span></h1>
+
+<h2 class="date">2023/12/28</h2>
+</div>
+
+<main>
+<p>This semester was a lot of fun for me. I am going to go through some of the highlights and lowlights of this last semester in anticipation of the upcoming semester. I also completed all the requirements for my Bachelors in Computer Science, so from here on out all my coursework will be towards completing my second degree in Computational Math.</p>
+<h2 id="cs5030-high-performance-computing">CS5030: High Performance Computing</h2>
+<h3 id="taught-by-dr-steve-patruzza">Taught by Dr. Steve Patruzza</h3>
+<p>This class was a blast and goes head first into high performance computing and the best practices when utilizing a computing cluster. When I signed up for this class, I assumed it would be more of a topics class where we approach the topic at a high level, but it ended up being very in-depth and hands on. My favorite part of the class was the allocation our class was given on the University of Utah&rsquo;s high performance computing cluster. This let us get first hand experience with the toolchains we were learning about in class.</p>
+<p><strong>Things I learned &amp; topics discussed</strong></p>
+<ul>
+<li><code>POSIX</code> threads/<code>C-threads</code>
+<ul>
+<li>We had to implement a histogram program that
+utilized parallel threads to calculate the histogram</li>
+</ul>
+</li>
+<li><code>OpenMP</code>
+<ul>
+<li>We had several projects that utilized <code>OpenMP</code>. I found
+this to be a highlight of the course. It blows my mind
+the easiest multithreading library I have run into utilizes
+<code>C</code> and not something more modern like <code>Java</code> or <code>Rust</code>.</li>
+<li>We had to reimplement the histogram program using <code>OpenMP</code>,
+which showed just convenient <code>OpenMP</code> is versus traditional
+<code>POSIX</code> threads.</li>
+</ul>
+</li>
+<li><code>MPI</code>: Message Passing Interface
+<ul>
+<li>We did the histogram thing again but with <code>MPI</code>. Bleh.</li>
+<li><code>MPI</code> is my personal hell, but I also love <code>MPI</code>. I shed tears
+while trying to complete the homework and final project utilizing
+this paradigm, but the end result was amazing to see. When I was
+finally able to get the code compiled and running on a cluster,
+the gains in performance were unmatched (given the right
+circumstances)</li>
+</ul>
+</li>
+<li><code>CUDA</code>
+<ul>
+<li>This is where things got really interesting. I have always wondered
+exactly how getting code to run on the GPU works, and this portion of
+the class gave me a taste of how that works.</li>
+<li>We had a few assignments surrounding GPU programming that demonstrated
+the basics alongside the benefits of adjusting <code>block</code> and <code>tile</code> sizes
+to better fit the problem.</li>
+</ul>
+</li>
+<li><code>CUDA + MPI</code>
+<ul>
+<li>Putting the things together is easier than expected, besides the build
+stage. My mistake was never really automating the build stage, but I am
+now very familiar with the deployment stage of building an MPI + CUDA
+program.</li>
+</ul>
+</li>
+<li>Approaches to parallelism
+<ul>
+<li>We talked a lot about when you <em>should</em> use parallelism and what a
+problem that can benefit from parallelism looks like.</li>
+</ul>
+</li>
+<li>Analyzing parallel performance
+<ul>
+<li>A significant portion of the class discussed how to measure the
+performance of a parallel program, including measuring weak vs. strong
+scaling, wall time vs cpu time, and profiling tools that are commonly
+used to evaluate the performance of a parallel program.</li>
+</ul>
+</li>
+</ul>
+<p><strong>THE Final Project</strong></p>
+<p>The final project for this class is awesome. I was in a group of 3 for the
+project. We ended up creating a program that, given a dataset representing
+elevation of terrain, creates a line-of-sight map from every point to every
+other point. Basically, &ldquo;if I stood here, what could I see?&rdquo;. We used this
+problem as an opportunity to create multiple implementations:</p>
+<ul>
+<li><code>Serial</code></li>
+<li><code>OpenMP</code></li>
+<li><code>MPI</code></li>
+<li><code>CUDA</code></li>
+<li><code>MPI + CUDA</code></li>
+</ul>
+<p><em>Check out my groups submission <a href="https://github.com/Drew-Watson-117/HPC_Project">here</a></em></p>
+<h2 id="cs5600-intelligence-systems">CS5600: Intelligence Systems</h2>
+<h3 id="taught-by-dr-vladimir-kulyukin">Taught by Dr. Vladimir Kulyukin</h3>
+<p>I <strong>loved</strong> this class. An AI class is a cornerstone of a computer science
+degree, and this class did not disappoint at all. Dr. Kulyukin is a master
+lecturer and he never failed to provide an interesting and engaging lecture.
+We often discussed questions of morality, and
+frequently addressed the vagueness and work that still needs to be
+done in this field. AI is in a weird -<em>unsustainable</em>- place right now,
+beyond the politics of companies like OpenAI, we have reached diminishing
+returns with scaling the current AI technologies that exist, so it was
+fascinating to dive into the history of the field and get a better
+understanding of how we got to where we are today.</p>
+<p><strong>Things I Learned &amp; Topics Discussed</strong></p>
+<ul>
+<li>Fundamentals of Artificial Intelligence
+<ul>
+<li>The axioms of AI, perceptrons, activation functions, etc</li>
+<li>We had to implement a basic shallow neural network from scratch in
+python by building our own perceptron class and connecting perceptrons
+together to resolve logical statements.</li>
+</ul>
+</li>
+<li>Neural Networks
+<ul>
+<li>We went into a lot of details surrounding <code>NN</code>s, read several papers
+that are foundational to <code>NN</code>s, and used many popular <code>NN</code> libraries
+including <code>PyTorch</code> and <code>TensorFlow</code></li>
+</ul>
+</li>
+<li>Convolutional Neural Networks
+<ul>
+<li>We experimented with an implementation of a <code>ConvNet</code> to perform
+computer vision.</li>
+</ul>
+</li>
+<li>Long Short Term Memory Models</li>
+<li>Symbolic AI
+<ul>
+<li>My favorite part of this section of the course was learning about
+<code>ELIZA</code>, a foundational element to modern chat-AIs like <code>chatGPT</code>.</li>
+</ul>
+</li>
+<li>Automatic Theorem Proving
+<ul>
+<li>I was not smart enough for most of the content in this section and
+found the syntax very mind boggling. I made myself look stupid <em>several</em>
+times in this unit of the course.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Class Projects</strong></p>
+<p>This class was comprised of two projects. The first project involved using
+several different NN models to predict behavior of a bee
+(<a href="https://www.seattletimes.com/nation-world/utah-professor-hopes-robotic-hives-will-help-honeybees/">Dr. Kulyukin&rsquo;s research</a>
+primarily focuses on bees :) ), alongside using computer vision to determine the
+presence or lack of presence of a bee in an image. My results were sub-par, but
+within line for the scope of the project.</p>
+<p>The second project was self directed and only required the project pertain to
+the topics of the course. Some of my classmates ran with this project and
+created chess bots and other cool applications of <code>NN</code>s, but I decided to go
+the symbolic AI route and implemented a lot of new rules for <code>ELIZA</code> that
+transformed the chat bot from a therapist into a technical support agent
+for Fedora Linux.</p>
+<p><em>My final project for this class can be downloaded from <a href="https://github.com/chandlerj/cs5600-finalproj">my GitHub</a></em></p>
+<h2 id="math4610-fundamentals-of-numerical-methods">MATH4610: Fundamentals of Numerical Methods</h2>
+<h3 id="taught-by-dr-joe-koebbe">Taught by Dr. Joe Koebbe</h3>
+<p>This class was very underwhelming. Dr. Koebbe was unsure what direction
+he wanted to take the class in, so the material we did cover was lackluster.
+We would often start class 15 minutes late and then end class 10 minutes early.
+The lazy side of me was fine with this, but the other side of me that wanted
+to be able to say I was a mathematician without feeling like a poser was upset.
+The only reason I took this class was because it is required for the
+Computational Math emphasis, and Dr. Koebbe is currently the only professor
+facilitating classes specific to that emphasis. The textbook for this class
+was the disorganized <a href="https://github.com/jvkoebbe/math4610">GitHub repository</a>
+provided by Dr. Koebbe.</p>
+<p><em><a href="https://github.com/chandlerj/math4610">Here</a> is my own disorganized repository for this class, which includes
+solutions to homework sets alongside lecture notes</em></p>
+<p><strong>Things I Learned &amp; Topics Discussed</strong></p>
+<ul>
+<li>Limits of representation using a computer
+<ul>
+<li>IE, the Maceps value of a floating point representation</li>
+</ul>
+</li>
+<li>Calculating various norms algorithmically</li>
+<li>Approximating derivatives using numerical methods</li>
+<li>Approximating solutions to a linear equation using numerical methods</li>
+<li>Approximating eigenvalues and eigenvalues of a system of equations</li>
+<li>Approximating solutions to systems of equations by utilizing numerical methods</li>
+<li>Determining critical points and inflection points utilizing numerical methods</li>
+<li>How little work it takes to be a tenured instructor at a state school.</li>
+</ul>
+<h2 id="math2210-multivariable-calculus">MATH2210: Multivariable Calculus</h2>
+<h3 id="taught-by-dr-justin-heavilin">Taught by Dr. Justin Heavilin</h3>
+<p>I am going to spare a lot of the details for this class as Calc III is
+pretty universal material for all STEM students. The textbook we used
+was the garbage <a href="https://openstax.org/details/books/calculus-volume-3">Openstax Calc III</a> textbook. I do appreciate that this textbook is free; however,
+you get what you pay for. As far as lectures go, at first I absolutely hated
+Dr. Heavilin&rsquo;s lecturing style, but as time went on I began to appreciate
+why he chooses to do things the way he does. Anyone who has taken a class
+From Dr. Heavilin will agree the material he presents in class does not
+always line up with the homework material, but I think for a class like
+Calculus III, that is okay. I think Calc III should be a class where the
+student really starts to grasp the why behind mathematics and I think
+Dr. Heavilin does an excellent job presenting compelling questions. He is
+also the first professor I have had break the facade that instructors just
+know everything, and I really appreciate the humanity he presents. Sometimes
+the comments he made were questionable, but I think being questionable is a
+prerequisite for being a faculty member of Utah State&rsquo;s Math/Stats Department.</p>
+<p>While this class might be intended to be taken before other 2XXX math classes,
+I am happy I took this class after taking Linear Algebra, ODEs, Discrete, etc
+as I do not think I would have fully appreciated the content of this course
+before this semester. While many people claim this class is light work and
+trivial, I found it to be one of the most challenging math classes I have taken.</p>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+<p>I would consider Fall 2023 to be one of the most successful semesters I have
+had in my college career. I passed all my classes with As and Bs, and I
+feel like I engaged with the material better than I would normally. Additionally,
+in my personal life I found more fulfillment as I was enjoying the time I spent
+being productive. I think this was the semester where I began to understand the
+work I will need to put in for a successful career.</p>
+
+</main>
+
+  <footer>
+  <script defer src="//yihui.org/js/math-code.js"></script>
+<script defer src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script defer src="//yihui.org/js/center-img.js"></script>
+
+  
+  <hr/>
+  © <a href="http://chandlerjustice.com/">Chandler Justice</a> 2023 &ndash; 2024
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Chandler Justice</title>
-    <link>/</link>
-    <description>Recent content in Home on Chandler Justice</description>
+    <title>Posts on Chandler Justice</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Chandler Justice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Dec 2023 10:31:41 -0600</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;23: Semester Retrospective</title>
       <link>/posts/fall23review/</link>
@@ -21,13 +21,6 @@
       <pubDate>Wed, 27 Dec 2023 18:02:40 -0600</pubDate>
       <guid>/posts/hello/</guid>
       <description>This is my new personal website where I hope to babble and provide mildly insightful blog posts and other materials.&#xA;To build this site I used Hugo. The theme is a modified variant of hugo-xmin.</description>
-    </item>
-    <item>
-      <title>About Chandler Justice</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/about/</guid>
-      <description>I have a strong passion for all things computer science and mathematics. I am fascinated by the problems that can be solved by the tools these disciplines provide.&#xA;Topics I am particularly fond of include: Operating Systems (Specifically UNIX) Back End development I love languages like C, C++, Rust, etc Graph Theory Computational Mathematics Hacking devices back into relevance using aftermarket software. Education BS: Computer Science | Utah State | Fall 2019 - Fall 2023</description>
     </item>
   </channel>
 </rss>

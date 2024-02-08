@@ -48,7 +48,7 @@ pre code { background: none; }
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
 blockquote {
-  background: black;
+  background: #f9f9f9;
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
