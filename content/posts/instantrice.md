@@ -1,7 +1,7 @@
 ---
 title: "How I Created Instant Rice, An Automatic Theming Tool"
-date: 2024-12-28T:29:20-06:00
-draft: true
+date: 2024-03-13T18:02:40-06:00
+draft: false 
 ---
 
 The amount of customization available on a Linux desktop absolutely scratches my OCD. I sometimes find myself spending hours tweaking
@@ -111,5 +111,7 @@ def compColors(color_list: list) -> list:
     return compliments
 
 ```
-## Updating the System Configuration
 
+## Check It Out For Yourself
+
+I have changed a lot with this tool and added several new features since writting this. If you want to see the current state of the tool, check out my [Github repository](https://github.com/chandlerj/InstantRice) to clone the project and try it out, and keep up with devlopment.

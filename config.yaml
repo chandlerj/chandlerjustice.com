@@ -21,6 +21,8 @@ menu:
       weight: 2
     - name: Posts
       url: "posts/"
+    - name: Reading List
+      url: "reading-list/"
 params:
   description: "Chandler Justice's Personal Website."
   footer: "&copy; [Chandler Justice](http://chandlerjustice.com/) 2023 -- {Year}"

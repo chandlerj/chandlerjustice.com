@@ -6,21 +6,35 @@
     <description>Recent content in Posts on Chandler Justice</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 10:31:41 -0600</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Mar 2024 18:02:40 -0600</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Created Instant Rice, An Automatic Theming Tool</title>
+      <link>/posts/instantrice/</link>
+      <pubDate>Wed, 13 Mar 2024 18:02:40 -0600</pubDate>
+      
+      <guid>/posts/instantrice/</guid>
+      <description>The amount of customization available on a Linux desktop absolutely scratches my OCD. I sometimes find myself spending hours tweaking every aspect of the system I can. Every program that dropped a file in my .config folder was a new present, where I could dive in and change every last variable of a configuration value. Beyond scratching an itch, tweaking a program&amp;rsquo;s config file is a great way to learn how that program works and how to use that program.</description>
+    </item>
+    
     <item>
       <title>Fall &#39;23: Semester Retrospective</title>
       <link>/posts/fall23review/</link>
       <pubDate>Thu, 28 Dec 2023 10:31:41 -0600</pubDate>
+      
       <guid>/posts/fall23review/</guid>
-      <description>This semester was a lot of fun for me. I am going to go through some of the highlights and lowlights of this last semester in anticipation of the upcoming semester. I also completed all the requirements for my Bachelors in Computer Science, so from here on out all my coursework will be towards completing my second degree in Computational Math.&#xA;CS5030: High Performance Computing Taught by Dr. Steve Patruzza This class was a blast and goes head first into high performance computing and the best practices when utilizing a computing cluster.</description>
+      <description>This semester was a lot of fun for me. I am going to go through some of the highlights and lowlights of this last semester in anticipation of the upcoming semester. I also completed all the requirements for my Bachelors in Computer Science, so from here on out all my coursework will be towards completing my second degree in Computational Math.
+CS5030: High Performance Computing Taught by Dr. Steve Patruzza This class was a blast and goes head first into high performance computing and the best practices when utilizing a computing cluster.</description>
     </item>
+    
     <item>
       <title>Welcome to the website</title>
       <link>/posts/hello/</link>
       <pubDate>Wed, 27 Dec 2023 18:02:40 -0600</pubDate>
+      
       <guid>/posts/hello/</guid>
-      <description>This is my new personal website where I hope to babble and provide mildly insightful blog posts and other materials.&#xA;To build this site I used Hugo. The theme is a modified variant of hugo-xmin.</description>
+      <description>This is my new personal website where I hope to babble and provide mildly insightful blog posts and other materials.
+To build this site I used Hugo. The theme is a modified variant of hugo-xmin.</description>
     </item>
+    
   </channel>
 </rss>
