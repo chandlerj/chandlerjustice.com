@@ -13,7 +13,8 @@ This will serve as a rolling archive of the books I have read, when I read them,
 
 * **Digital Minimalism - Cal Newport (2019)**
     * ISBN `9780525536512`
-    * Reading *in progress*
+    * Read Winter 2024
+    * I really loved this book. It said a lot of what I was thinking the whole time alongside presenting a lot of beneficial ideas for creating a healthy relationship with electronics. I wrote a blog post about some applications of these philosophies [here](../posts/digitalminimalism).
 
 * **L'etranger - Albert Camus [Translated by Matthew Ward] (1988)**
     * ISBN `0394533054`

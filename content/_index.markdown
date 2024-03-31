@@ -7,14 +7,13 @@ title: Home
 
 (Full resume @ [about](about/) page)
 
-## Other Things I do:
+## Things I do:
 - [Instant Rice: An automatic theming utility for many popular desktop tools](https://github.com/chandlerj/InstantRice)
-- [DELTA ROSA: An alias for electronic music I make](https://deltarosa.bandcamp.com/)
 
 ## How To Reach Me:
 
 
- Email:   me@chandlerjustice.com
+ Email:   chqn@chandlerjustice.com
 
  Github:  [ChandlerJ](https://github.com/chandlerj)
 
